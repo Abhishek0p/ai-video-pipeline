@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Output videos
+output/
+
+# Downloaded assets (videos, audio) - regenerated at runtime
+assets/videos/
+assets/audio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / API keys
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
