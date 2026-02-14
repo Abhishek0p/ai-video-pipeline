@@ -1,3 +1,4 @@
+
 import requests
 import os
 from dotenv import load_dotenv
@@ -25,7 +26,7 @@ def _pick_medium_resolution(video_files, target_height=720):
     return scored[0][1]
 
 
-def fetch_videos(topic, count=8):
+def fetch_videos(topic, count=5):
     """Fetch videos from Pexels — fewer clips at medium resolution for faster processing."""
     url = f"https://api.pexels.com/videos/search?query={topic}&per_page={count}"
 

@@ -83,7 +83,7 @@ def build_video():
         print("No video clips found in assets/videos/")
         return
 
-    MAX_CLIP_DURATION = 10  # seconds – keep each clip short for shorts format
+    MAX_CLIP_DURATION = 7  # seconds – keep each clip short for shorts format
 
     clips = []
     for vf in video_files:
